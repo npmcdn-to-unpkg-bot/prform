@@ -1,0 +1,65 @@
+/*.upload-file .up-field.has-input-file {
+	margin-bottom: 10px;
+	position: relative;
+}
+.upload-file .up-field.has-input-file .remove_field {
+	background-color: #fff;
+    font-size: 22px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 40px;
+    opacity: 0;
+    color: red;
+}
+.upload-file .up-field.has-input-file:hover .remove_field {
+	opacity: 1;
+}	
+.upload-file .up-field.has-input-file:last-child {
+	margin-bottom: 0;
+}
+
+.preffered-font .input-hold {
+	margin-bottom: 10px;
+	position: relative;
+}
+.preffered-font .input-hold .remove_field {
+	background-color: #fff;
+    font-size: 22px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 40px;
+    opacity: 0;
+    color: red;
+}
+.preffered-font .input-hold:hover .remove_field {
+	opacity: 1;
+}
+.preffered-font .input-hold:last-child {
+	margin-bottom: 0;
+}
+*/
+
+
+
+.page-heading .goto-proj {
+    font-size: 14px;
+    color: #2d3e50;
+    text-transform: capitalize;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+.folio-container .folio-item .folio-thumb {
+	background-color: #fff;
+	height: 170px;
+}
+.folio-container .folio-item .folio-thumb img {
+	margin: 0 auto;
+	vertical-align: bottom;
+}

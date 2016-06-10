@@ -1,0 +1,98 @@
+.form-control {
+	box-shadow: none !important;
+	border-color: #fff;
+	.border-radius(2px);
+
+	&.stk2 {
+		border-width: 2px;
+	}
+
+	&:focus {
+		border-color: @brand-primary;
+		outline: none;
+	}
+
+
+
+
+
+	&.select-styled {
+		background-image: url('../images/sel-arrow-down.png');
+		background-position: -webkit-calc(~"100% - 10px") 50%;
+		background-position: -moz-calc(~"100% - 10px") 50%;
+		background-position: calc(~"100% - 10px") 50%;
+		background-repeat: no-repeat;
+		background-size: 8px 5px;
+
+		-webkit-appearance: none;
+		-moz-appearance: none;
+			 appearance: none;
+	}
+
+	&.date-field {
+		background-image: url('../images/calender.png');
+		background-position: -webkit-calc(~"100% - 10px") 50%;
+		background-position: -moz-calc(~"100% - 10px") 50%;
+		background-position: calc(~"100% - 10px") 50%;
+		background-repeat: no-repeat;
+		background-size: 15px 16px;
+	}
+
+	&.color-field {
+		background-image: url('../images/color-pic.png');
+		background-position: -webkit-calc(~"100% - 10px") 50%;
+		background-position: -moz-calc(~"100% - 10px") 50%;
+		background-position: calc(~"100% - 10px") 50%;
+		background-repeat: no-repeat;
+		background-size: 19px 19px;
+	}
+
+}
+
+.input-group {
+	.input-group-addon {
+		border-color: @border-color;
+	}
+}
+
+.label-styled {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: @text-color;
+}
+
+.control-label {
+    &.label-left-upp {
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.label-grouped {
+	padding-top: 10px;
+	label {
+		text-transform: uppercase;
+	}
+}
+
+.file-styled {
+	background-color: #fff;
+}
+.like-input {
+	background-color: @brand-bg-lighter;
+	padding: 6px 12px;
+	.border-radius(2px);
+}
+
+
+
+
+.irs-from, 
+.irs-to, 
+.irs-single {
+	background: @brand-primary;
+
+	&::after {
+		border-color: @brand-primary transparent transparent;
+	}
+}

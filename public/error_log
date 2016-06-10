@@ -1,0 +1,5 @@
+[05-Mar-2016 18:23:43 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home1/rhoque/public_html/php/pr_form/storage/framework/views/5f81e2eed8b0fd79a23a70af36021d7727c324c3.php on line 52
+[06-Mar-2016 06:05:18 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on null in /home1/rhoque/public_html/php/pr_form/app/Http/Controllers/Admin/AdminController.php on line 266
+[06-Mar-2016 06:06:34 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on null in /home1/rhoque/public_html/php/pr_form/app/Http/Controllers/Admin/AdminController.php on line 266
+[14-Mar-2016 08:44:01 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/rhoque/public_html/php/pr_form/app/Http/Controllers/Admin/AdminController.php on line 317
+[15-Mar-2016 08:39:14 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home1/rhoque/public_html/php/pr_form/app/Http/Controllers/SuperadminController.php on line 303

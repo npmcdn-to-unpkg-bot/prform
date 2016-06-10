@@ -1,0 +1,159 @@
+
+.btn {
+	&.btn-lg {
+		font-size: 16px;
+		padding: 16px 16px;
+		.border-radius(4px);
+	}
+	&.btn-md {
+		padding: 10px 15px;
+		.border-radius(4px);
+	}
+	&.btn-afix {
+		min-width: 220px;
+	}
+	&.btn-primary {
+		background-color: @brand-primary;
+		border-color:  darken(@brand-primary, 5%);
+
+		&:hover, &:active, &:focus {
+			background-color: darken(@brand-primary, 5%);
+		}
+	}
+
+	&.stroke-0 {
+		border: 0 !important;
+	}
+
+	&.btn-stroke {
+		border-width: 1px;
+		background-color: transparent !important;
+
+		&.stk2 {
+			border-width: 2px;
+		}
+
+		&.btn-default {
+			border-color: #fff;
+			color: #fff;
+
+			&:hover {
+				border-color: #fff;
+				color: @brand-primary;
+			}
+		}
+
+		&.btn-primary {
+			border-color: @brand-primary;
+			color: @brand-primary;
+
+			&:hover {
+				border-color: darken(@brand-primary, 5%);
+				color: darken(@brand-primary, 5%);
+			}
+		}
+
+		&.btn-warning {
+			border-color: #eea236;
+			color: #eea236;
+
+			&:hover {
+				border-color: #ec971f;
+				color: #ec971f;
+			}
+		}
+
+		&.btn-danger {
+			border-color: #d9534f;
+			color: #d9534f;
+
+			&:hover {
+				border-color: #c9302c;
+				color: #c9302c;
+			}
+		}
+
+		&.btn-black {
+			border-color: #6a7a88;
+			color: #6a7a88;
+		}
+	}
+
+
+
+
+	&.btn-orange {
+		background-color: #f18526;
+		color: #fff;
+	}
+
+	&.btn-blue {
+		background-color: #3498db;
+		color: #fff;
+	}
+	&.btn-light-megenta {
+		background-color: #e7d7ee;
+		color: #9b59b6;
+	}
+	&.btn-light-red {
+		background-color: #f9d4d0;
+		color: #e74c3c;
+	}
+	&.btn-red {
+		background-color: #e74c3c;
+		color: #fff;
+	}
+	&.btn-green {
+		background-color: #4caf50;
+		color: #fff;
+	}
+
+	&.btn-black {
+		background-color: #6a7a88;
+		color: #fff;
+	}
+
+	&.btn-has-icon {
+		padding: 0;
+
+		.bicon {
+			padding: 6px 12px;
+			display: inline-block;
+			text-align: center;
+		}
+		.btext {
+			padding: 6px 12px;
+			display: inline-block;
+			text-align: center;
+		}
+
+		&.btn-lg {
+			.bicon {
+				padding: 16px;
+			}
+			.btext {
+				padding: 16px;
+			}
+		}
+
+		&.btn-black {
+			.bicon {
+				background-color: #4b5a67;
+			}
+		}
+
+		&.btn-primary {
+			.bicon {
+				background-color: darken(@brand-primary, 5%);
+			}
+		}
+
+		&.btn-red {
+			.bicon {
+				background-color: #c0392b;
+			}
+		}
+	}
+
+
+}
